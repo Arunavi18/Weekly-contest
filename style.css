@@ -1,0 +1,85 @@
+body{
+    font-family: Inter, sans-serif;
+    font-style : normal;
+}
+/*--head and nav--*/
+header{
+    position: sticky;
+}
+.sticky-nav{
+    display : flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    height: 70px;
+
+}
+
+.menu{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    margin: auto 18px;
+}
+
+ul a{
+    margin: 18px;
+    color: white;
+    font-size: 1.30rem;
+}
+
+.company-name{
+    margin: 18px;
+    color: whitesmoke;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.info-pic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.info-pic>.info{
+    padding-left: 50px;
+}
+
+.info-pic>.image{
+    padding-right: 50px;
+}
+
+.image> img{
+    width: 450px;
+    height: 500px;
+}
+
+.info{
+    width: 48%;
+    font-size: 1.28rem;
+}
+
+
+/*--flex album--*/
+
+.flex-heading > h1{
+    font-size: 1.8rem;
+}
+
+#flex-album{
+    margin: 75px 50px;;
+}
+
+.image-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hampi-img > img{
+    width: 400px;
+    height: 300px;
+    margin: 4opx auto;
+}
